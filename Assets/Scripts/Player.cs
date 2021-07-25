@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 9)
+        if (other.gameObject.layer == 7)
         {
             Destroy(other.gameObject);
             superJumpsRemaining++;
